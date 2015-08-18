@@ -1,5 +1,17 @@
 #!/usr/bin/env bash
 
+###############################################################################
+# This script allows functions to be called from a file.
+#
+# Below is the output of the script when called without arguments:
+#
+# Usage: bash_menu.sh [command] [args...]
+# 
+#    public_method_args arg1 arg2
+#    public_method_no_args
+#    usage
+###############################################################################
+
 function public_method_no_args () {
    # public_method_no_args
    echo "This method is displayed in the menu."
